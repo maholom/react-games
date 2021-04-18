@@ -16,7 +16,9 @@ const GameDetail = () => {
           </div>
           <div className="info">
             <h3>Platforms</h3>
-            <div className="platforms"></div>
+            <div className="platforms">
+              <div>Playstation</div>
+            </div>
           </div>
         </div>
       </div>
