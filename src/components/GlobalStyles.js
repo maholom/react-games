@@ -41,6 +41,10 @@ a{
   color: #333;
 }
 
+img {
+  display: block;
+}
+
 
 `;
 
