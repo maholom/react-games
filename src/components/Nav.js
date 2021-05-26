@@ -23,7 +23,7 @@ const Nav = () => {
 
   return (
     <StyledNav>
-      <Logo on Click={clearSearched}>
+      <Logo onClick={clearSearched}>
         <img src={logo} alt="Logo" />
         <h1>Ignite</h1>
       </Logo>
