@@ -8,6 +8,7 @@ import Game from '../components/Game';
 //Style
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { fadeIn } from '../animation';
 import { useLocation } from 'react-router-dom';
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
     (state) => state.games,
   );
   return (
-    <GameList>
+    <GameList variants={fadeIn} initial="hidden" animate="show">
       {searched.length ? (
         <div className="searched">
           <h2>Searched Games</h2>
